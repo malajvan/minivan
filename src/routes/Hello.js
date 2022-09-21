@@ -1,6 +1,6 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
-const Hiiamvan = () => {
+const Hello = () => {
   return (
     <div>
         <Navbar/>
@@ -9,4 +9,4 @@ const Hiiamvan = () => {
   )
 }
 
-export default Hiiamvan
+export default Hello

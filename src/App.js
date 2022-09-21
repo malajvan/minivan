@@ -1,6 +1,6 @@
 import React from "react";
 import "./index.css";
-import Hiiamvan from "./routes/Hiiamvan";
+import Hello from "./routes/Hello";
 import About from "./routes/About";
 import Music from "./routes/Music";
 import Projects from "./routes/Projects";
@@ -10,7 +10,7 @@ function App() {
   return (
     <>
       <Routes>
-          <Route path="/" element ={<Hiiamvan />} />
+          <Route path="/minivan" element ={<Hello />} />
           <Route path="/project" element ={<Projects />} />
           <Route path="/about" element ={<About />} />
           <Route path="/music" element ={<Music />} />
