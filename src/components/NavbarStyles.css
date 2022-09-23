@@ -32,7 +32,7 @@
         position: absolute;
         top:0;
         left:-100%;
-        z-index: -3;
+        z-index: 0;
         transition: 0.25s;
 
     }

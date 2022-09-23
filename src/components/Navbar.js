@@ -1,8 +1,10 @@
 import "./NavbarStyles.css";
+import Pdf from '../Documents/PSet1-B.pdf'
 
 import React, {useState} from 'react';
 import { Link } from "react-router-dom";
 import { FaBars, FaTimes } from 'react-icons/fa';
+
 
 const Navbar = () => {
     const [click, setClick] = useState(false);
@@ -10,8 +12,8 @@ const Navbar = () => {
 
     return (
         <div className="header">
-            <Link to="/">
-                <h1>Portfolio</h1>
+            <Link to="/minivan">
+                <h1>Hong Van Pham</h1>
             </Link>
             <ul className={click ? "nav-menu active" : "nav-menu"}>
                 <li>
@@ -25,6 +27,9 @@ const Navbar = () => {
                 </li>
                 <li>    
                     <Link to="/music">Music</Link>
+                </li>
+                <li>
+                    <a href="../Documents/PSet1-B.pdf">Resume</a>
                 </li>
             </ul>
             <div className="hamburger" onClick={handleClick}>
