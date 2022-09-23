@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/minivan/static/css/main.87349d77.css",
-    "main.js": "/minivan/static/js/main.b81ce6e2.js",
+    "main.css": "/minivan/static/css/main.92087f8c.css",
+    "main.js": "/minivan/static/js/main.0098b7bf.js",
+    "static/media/PSet1-B.pdf": "/minivan/static/media/PSet1-B.062ee75e8c16e8128e85.pdf",
     "index.html": "/minivan/index.html",
-    "main.87349d77.css.map": "/minivan/static/css/main.87349d77.css.map",
-    "main.b81ce6e2.js.map": "/minivan/static/js/main.b81ce6e2.js.map"
+    "main.92087f8c.css.map": "/minivan/static/css/main.92087f8c.css.map",
+    "main.0098b7bf.js.map": "/minivan/static/js/main.0098b7bf.js.map"
   },
   "entrypoints": [
-    "static/css/main.87349d77.css",
-    "static/js/main.b81ce6e2.js"
+    "static/css/main.92087f8c.css",
+    "static/js/main.0098b7bf.js"
   ]
 }
