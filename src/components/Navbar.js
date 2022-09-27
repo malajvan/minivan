@@ -1,5 +1,5 @@
 import "./NavbarStyles.css";
-import Pdf from '../Documents/PSet1-B.pdf'
+import Pdf from '../Documents/Resume_HongVanPham.pdf'
 
 import React, {useState} from 'react';
 import { Link } from "react-router-dom";
@@ -29,7 +29,7 @@ const Navbar = () => {
                     <Link to="/music">Music</Link>
                 </li>
                 <li>
-                    <a href="../Documents/PSet1-B.pdf">Resume</a>
+                    <a href={Pdf} target="_blank">Resume</a>
                 </li>
             </ul>
             <div className="hamburger" onClick={handleClick}>

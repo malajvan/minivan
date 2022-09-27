@@ -4,7 +4,6 @@ import Hello from "./routes/Hello";
 import About from "./routes/About";
 import Music from "./routes/Music";
 import Projects from "./routes/Projects";
-import Navbar from "./components/Navbar"
 import { Route, Routes } from "react-router-dom"
 
 function App() {
