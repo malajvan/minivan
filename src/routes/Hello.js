@@ -1,6 +1,8 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import Footer from '../components/Footer'
 import Navbar from '../components/Navbar'
+
 const Hello = () => {
   return (
     <div className='page'>
@@ -16,6 +18,7 @@ const Hello = () => {
         <div style={{paddingTop:'50px',paddingLeft:'90px'}}>
           <Link to="#" className='btn' onClick={() => window.location ='mailto:vanhongpham01@gmail.com'}>Say Hello!</Link>
         </div>
+        <div><Footer /></div>
       </div>
   </div>
   )
