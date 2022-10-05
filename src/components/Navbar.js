@@ -1,5 +1,5 @@
 import "./NavbarStyles.css";
-import Pdf from '../Documents/Resume_HongVanPham.pdf'
+import Pdf from '../Resources/Resume_HongVanPham.pdf'
 
 import React, {useState} from 'react';
 import { Link } from "react-router-dom";
