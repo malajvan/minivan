@@ -1,14 +1,15 @@
 {
   "files": {
     "main.css": "/minivan/static/css/main.31ad0c9f.css",
-    "main.js": "/minivan/static/js/main.3c904e80.js",
+    "main.js": "/minivan/static/js/main.92605a19.js",
+    "static/media/about_pic.jpg": "/minivan/static/media/about_pic.71819f36d41d8570c195.jpg",
     "static/media/Resume_HongVanPham.pdf": "/minivan/static/media/Resume_HongVanPham.ee554479b0cc0c6bfc2b.pdf",
     "index.html": "/minivan/index.html",
     "main.31ad0c9f.css.map": "/minivan/static/css/main.31ad0c9f.css.map",
-    "main.3c904e80.js.map": "/minivan/static/js/main.3c904e80.js.map"
+    "main.92605a19.js.map": "/minivan/static/js/main.92605a19.js.map"
   },
   "entrypoints": [
     "static/css/main.31ad0c9f.css",
-    "static/js/main.3c904e80.js"
+    "static/js/main.92605a19.js"
   ]
 }
