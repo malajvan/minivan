@@ -1,6 +1,6 @@
 .footer{
     width:100%;
-    padding: 2rem 1rem ;
+    padding: 2rem 0rem ;
     background-color: #2C2285;
 }
 
@@ -12,7 +12,7 @@
 }
 
 .socials{
-    padding-left: 3.6rem;
+    padding-left: 0rem;
     padding-top: 1rem;
     height:100%;
     max-width: 100%;
@@ -23,7 +23,7 @@
 
 .linkedin{
     display:flex;
-    padding-left: 1rem;
+    padding-left: 0rem;
 
 }
 .github{

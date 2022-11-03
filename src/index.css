@@ -73,3 +73,13 @@ a{
   color: #fff;
   transition: 0.3s;
 }
+
+.col {
+  float: left;
+  width: 50%;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }

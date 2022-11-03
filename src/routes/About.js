@@ -33,8 +33,9 @@ const About = () => {
       </div>
         <div style={{paddingTop:'100px',paddingLeft:'90px'}}>
           <Link to="#" className='btn' onClick={() => window.location ='mailto:vanhongpham01@gmail.com'}>Say Hello!</Link>
+          <div><Footer /></div>
         </div>
-        <div><Footer /></div>
+        
       
 
     </div>
