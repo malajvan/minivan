@@ -8,19 +8,19 @@ const Footer = () => {
     <div className="footer">
       <div className="footer-container">
         <div className="socials">
-          <a href="https://www.linkedin.com/in/vanhpham/" target="_blank">
+          <a href="https://www.linkedin.com/in/vanhpham/" target="_blank" rel="noreferrer">
             <div  className="linkedin" >
               <FaLinkedin
                 size={30} style={{color:"#fff", marginLeft:"0rem"}} />
             </div> 
           </a>
-          <a href="https://github.com/malajvan" target="_blank"> 
+          <a href="https://github.com/malajvan" target="_blank" rel="noreferrer"> 
             <div className="github">
               <FaGithub 
                 size={30} style={{color:"#fff", marginLeft:"0.3rem"}} />
             </div>
           </a>
-          <a href="https://www.youtube.com/channel/UCn0lJT4jmEwbFUromYUtoMw" target="_blank"> 
+          <a href="https://www.youtube.com/channel/UCn0lJT4jmEwbFUromYUtoMw" target="_blank" rel="noreferrer"> 
             <div className="youtube">
               <FaYoutube 
                 size={30} style={{color:"#fff", marginLeft:"0.3rem"}} />

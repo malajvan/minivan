@@ -29,7 +29,7 @@ const Navbar = () => {
                     <Link to="/music">Music</Link>
                 </li>
                 <li>
-                    <a href={Pdf} target="_blank">Resume</a>
+                    <a href={Pdf} target="_blank" rel="noreferrer">Resume</a>
                 </li>
             </ul>
             <div className="hamburger" onClick={handleClick}>

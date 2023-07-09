@@ -83,3 +83,42 @@ a{
     display: table;
     clear: both;
   }
+
+.projects{
+  margin-top: 50px;
+  margin-left: 90px;
+}
+
+.project {
+  color: #fff;
+  /* border-style:solid; */
+  /* padding: 5px; */
+  width: 50%;
+  /* height: 50px; */
+  float: left;
+}
+
+.pname{
+  margin-top: 15px;
+  margin-bottom: 10px;
+  color:#fff;
+  font-size:larger;
+  font-weight: 1000;
+  text-decoration: underline;
+}
+.pdesc{
+  color: #ffffffc2;
+  font-size:large;
+}
+b {
+  box-shadow: inset 0 0 0 0 #54b3d6;
+  color: #54b3d6;
+  margin: 0 -.25rem;
+  padding: 0 .25rem;
+  transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+
+b:hover {
+  box-shadow: inset 100px 0 0 0 #54b3d6;
+  color: white;
+}

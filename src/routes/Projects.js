@@ -2,33 +2,49 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import Footer from '../components/Footer'
 import Navbar from '../components/Navbar'
-import Picture from '../Resources/DDMAL.png'
+import Rodan from '../Resources/rodan-lab.png'
+import MFCC from '../Resources/mfcc.png'
 
 
 const About = () => {
   return (
     <div>
       <Navbar />
-      <div style={{paddingTop:'90px',paddingLeft:"90px", color:"#fff",fontSize:'2.1rem',fontWeight:'900'}}>
+      <div style={{paddingTop:'60px',paddingLeft:"90px", color:"#fff",fontSize:'2.1rem',fontWeight:'900'}}>
           Projects
        </div> 
-      <div class="row">
-        <div class="col">
-          <div style={{paddingTop:'25px',paddingLeft:"90px", color:"#dddaff",fontSize:'1rem',fontWeight:'500'}}> 
-                All of my personal projects are neatly organised in my Github page. I'm particularly proud of my work with McGill's <a style={{fontSize:"1rem", textDecoration:"underline"}} href="https://ddmal.music.mcgill.ca/" target="_blank">DDMAL lab</a> on Rodan, the workflow management system for musicologists. 
-                More information <a style={{fontSize:"1rem", textDecoration:"underline"}} href="https://github.com/DDMAL/Rodan" target="_blank">here</a>.
+      <div class="projects">
+        <div class="row">
+          <a href="https://github.com/DDMAL/Rodan" target="_blank" rel="noreferrer">
+          <div class="project">
+            <div class="picon">
+              <img style={{ flex: 2 }} width='450' src={Rodan} alt='DDMAL lab members - Summer 2023' /> 
             </div>
+              <div class="pname">
+              Rodan @ SIMSSA, DDMAL lab
             </div>
+            <div class="pdesc">
+                A web-based workflow engine for Optical Music Recognition
+              </div>
+              </div>
+          </a>
         
-        <div class="col">
-          <img style={{flex:5, paddingLeft:"50px"}} width='500' src={Picture} alt='DDMAL lab picture'/>
+          <a href="https://github.com/malajvan/MFCC" target="_blank" rel="noreferrer">
+            <div class="project">
+              <div class="picon">
+                <img style={{ flex: 2 }} width='230' paddingTop='5px' src={MFCC} alt='about_portrait' />
+              </div>
+              <div class="pname">
+                Spotify Popularity Predictions
+              </div>
+              <div class="pdesc">
+                Using audio features (MFCC) to predict songs’ popularity with KNN
+              </div>
+            </div>
+          </a>
+          
         </div>
       </div>
-        <div style={{paddingTop:'10px',paddingLeft:'90px'}}>
-          <Link to="#" className='btn' onClick={() => window.location ='mailto:vanhongpham01@gmail.com'}>Say Hello!</Link>
-          <div><Footer /></div>
-        </div>
-        
       
 
     </div>
