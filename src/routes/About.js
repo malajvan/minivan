@@ -15,10 +15,9 @@ const About = () => {
       <div class="row">
         <div class="col">
           <div style={{paddingTop:'25px',paddingLeft:"90px", color:"#dddaff",fontSize:'1rem',fontWeight:'500'}}> 
-                Aside from being a Math & Computer Science student at McGill, I'm also an avid musician and music lover. I believe this fact is made obvious if you have had the time to look over my personal projects.
-                I'm also a Software Developer at McGill's DDMAL lab, responsible for maintaining and developing the backend of
-                a workflow management system for musicologists. 
-                <p>If you are interested in my music, feel free to visit my youtube channel or the music page.</p>
+            I'm a Software Developer at McGill's DDMAL lab, responsible for maintaining and developing the backend of
+                a workflow management system for musicologists. I'm also an avid musician and music lover, spending my free time doing working on music related data-driven projects.
+  
             </div>
         </div>
         

@@ -14,12 +14,12 @@ const Hello = () => {
        </div> 
         
         <div style={{paddingTop:'25px',float:"left","width":"60%",paddingLeft:"90px", color:"#dddaff",fontSize:'1.3rem',fontWeight:'500'}}> 
-          I am a Math & CS student at McGill University, Montreal, Canada! I have a passion for data-driven projects and answer real world problems using data analysis. 
+          I am a Software Developer at McGill's DDMAL lab, recently graduated from McGill University in Math and Computer Science! I have a passion for data science and engineer and using data to answer real world problems. 
         </div>
        
         
         <div  style={{paddingTop:'25px',float:'left',width:'70%',paddingLeft:"90px", color:"#dddaff",fontSize:'1.5rem',fontWeight:'700'}}> 
-           <p>I'm currently looking for a Full-time position for Summer 2023!</p>
+           <p>I would love to hear from you!</p>
         
           <div style={{paddingTop:'45px'}}>
             <Link to="#" className='btn' onClick={() => window.location ='mailto:vanhongpham01@gmail.com'}>Say Hello!</Link>
